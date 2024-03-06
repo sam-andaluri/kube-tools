@@ -1,4 +1,4 @@
-FROM golang:1.15
+FROM golang:bookworm
 
 COPY LICENSE README.md /
 COPY src/ /
