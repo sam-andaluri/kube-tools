@@ -1,4 +1,4 @@
-FROM golang:1.15
+FROM golang:1.21.10
 
 COPY LICENSE README.md /
 COPY src/ /
